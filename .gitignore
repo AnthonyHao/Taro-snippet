@@ -1,0 +1,11 @@
+miniapp/taro
+miniapp/components
+miniapp/taro-components
+taro-project/dist
+**/node_modules
+.DS_Store
+dist/
+deploy_versions/
+.temp/
+.rn_temp/
+.swc

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "picker": "../../taro/components/picker/index",
+    "d-button": "../../taro/components/button/index",
+    "icon": "../../components/components/icon/index"
+  }
+}
