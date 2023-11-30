@@ -1,6 +1,7 @@
 miniapp/taro
 miniapp/components
 miniapp/taro-components
+miniapp/test-components
 taro-project/dist
 **/node_modules
 .DS_Store
