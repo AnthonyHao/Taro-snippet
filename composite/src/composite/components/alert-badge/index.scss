@@ -1,0 +1,34 @@
+:host {
+  display: block;
+  position: relative;
+}
+
+.composite-alert-badge {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 100%;
+  top: 0;
+
+  /* variant */
+  &_pip {
+    width: 8px;
+    height: 8px;
+  }
+
+  /* severity */
+  &_positive {
+    background-color: #fff;
+  }
+
+  &_information {
+    background-color: var(--composite-information);
+  }
+
+  &_warning {
+    background-color: var(--composite-warning);
+  }
+
+  &_error {
+    background-color: var(--composite-error);
+  }
+}
