@@ -1,0 +1,21 @@
+.dyson-button {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.dyson-button .label {
+  width: 200rpx;
+  height: 200rpx;
+  background: gold;
+}
+.dyson-button .bg {
+  width: 400rpx;
+  height: 300rpx;
+  background: purple;
+}
